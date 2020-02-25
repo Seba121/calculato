@@ -24,5 +24,14 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+            int wynik = 0;
+
+            wynik = Int32.Parse(textBox.Text) + Int32.Parse(textBox1.Text);
+
+            textBox2.Text= wynik.ToString();
+        }
     }
 }
