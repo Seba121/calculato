@@ -10,6 +10,12 @@
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="134,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="317,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="538,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="215,180,0,0" VerticalAlignment="Top" Width="75">
+            <Button x:Name="button4" Content="+" Width="75"/>
+        </Button>
+        <Button x:Name="button1" Content="-" HorizontalAlignment="Left" Margin="317,180,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button2" Content="*" HorizontalAlignment="Left" Margin="215,223,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="button3" Content="/" HorizontalAlignment="Left" Margin="318,223,0,0" VerticalAlignment="Top" Width="74"/>
 
     </Grid>
 </Window>
