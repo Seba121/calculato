@@ -60,5 +60,9 @@ namespace WpfApp1
 
             textBox2.Text = wynik.ToString();
         }
+        private void hello_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Byłam tu ( ･ω･)ﾉ");
+        }
     }
 }
